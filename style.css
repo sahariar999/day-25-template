@@ -1,0 +1,244 @@
+/* prising section start */
+.prising {
+    background: #F6F9FC;
+    padding: 117px 0;
+}
+.prising-header{
+    text-align: center;
+}
+.prising-header a{
+    font-size: 20px;
+    text-decoration: none;
+}
+.prising-header h3{
+    position:relative;
+    font-weight: 700;
+    padding: 11px 0;
+}
+.prising-header p{
+    font-size: 20px;
+    width: 85%;
+    margin: auto;
+    margin-bottom: 46px;
+    margin-top: 30px;
+    color: #606060;
+}
+.prising-header h3::after{
+    content: "";
+    background: #0B5ED7;
+    height: 2px;
+    width: 12%;
+    position: absolute;
+    bottom: -4px;
+    right: 45%;
+}
+
+
+
+.prising-inner{
+    display: flex;
+    justify-content: space-between;
+}
+.prising-item{
+    width: 30%;
+    background: white;
+    text-align: center;
+    padding: 22px;
+    transition: .5s;
+}
+.prising-item:hover {
+    background: #0B5ED7;
+    color: black;
+}
+
+
+.prising-item h6{
+    font-size: 19px;
+    color: #323030;
+    padding: 11px 0;
+}
+.prising-item h1{
+    font-weight: 700;
+    padding: 7px 0;
+    background: #cfcece;
+    transition: .5s;
+}
+
+.prising-item:hover h1{
+    transform: scale(1.1);
+    background-color: rgb(2, 14, 2);
+    color: white;
+}
+
+
+.prising-item p{
+    font-size: 22px;
+    color: #696969;
+    padding: 30px 0;
+    line-height: 40px;
+    transition: .5s;
+}
+
+.prising-item:hover p{
+    color: rgb(255, 255, 255);
+}
+.prising-item a{
+    position: relative;
+    padding: 11px 29px;
+    font-size: 16px;
+    font-weight: 500;
+    z-index: 1;
+    transition: .5s;
+}
+
+.prising-item:hover a{
+    background-color: red;
+   
+}
+
+.prising-item a::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #06060c;
+    height: 100%;
+    width: 0%;
+    z-index: -1;
+    transition: .5s;
+    border-radius: 33px;
+    border-color: #06060c !important;
+}
+.prising-item a:hover::after{
+    width: 100%;
+
+}
+/* prising section css end */
+
+
+/* .banner section css start */
+
+.banner {
+    background: linear-gradient(rgba(0, 43, 233, 0.644), rgba(0, 17, 255, 0.603)), url(./img/free-bg.jpg) top center no-repeat;
+    background-size: cover;
+    padding: 162px 0;
+    text-align: center;
+    color: white;
+}
+.banner .banner-text{}
+.banner .banner-text h3{
+    font-size: 22px;
+    color: #ffffff;
+    text-transform: capitalize;
+}
+.banner .banner-text h1{
+    position: relative;
+    font-size: 47px;
+    width: 80%;
+    margin: auto;
+    font-weight: 700;
+    padding: 22px 0;
+}
+.banner .banner-text h1::after{
+    content: "";
+    position: absolute;
+    bottom: 10px;
+    right: 45%;
+    background: #ddd;
+    height: 2px;
+    width: 10%;
+}
+.banner .banner-text p{
+    font-size: 19px;
+    width: 48%;
+    margin: auto;
+    padding: 11px 0;
+    font-weight: 700;
+    margin-bottom: 22px;
+}
+.banner .banner-text a{
+    padding: 13px 39px;
+    font-size: 17px;
+    font-weight: 700;
+    position: relative;
+    z-index: 1;
+    transition: .5s;
+}
+.banner .banner-text a::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #29292e;
+    height: 100%;
+    width: 0%;
+    z-index: -1;
+    border-radius: 38px;
+    transition: .5s;
+}
+.banner .banner-text a:hover::after{
+width: 100%;
+}
+
+/* .banner section css end */
+
+
+
+
+/* footer-css start */
+.footer{
+    padding: 22px;
+    background: #F8F9FA;
+}
+.left-footer{
+    background: #2c61d9;
+    padding: 22px;
+    margin: 34px 0;
+}
+.left-footer h3{
+    font-size: 35px;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+.left-footer p{
+    font-size: 20px;
+    color: white;
+    font-weight: 500;
+    padding: 22px 0;
+    width: 69%;
+}
+.left-footer .inner-footer{}
+.left-footer .inner-footer .forms {
+    margin-right: 32px;
+}
+.left-footer .inner-footer .forms input{
+    padding: 10px 17px;
+    font-size: 19px;
+}
+.button{
+}
+.button a{
+    padding: 10px 29px;
+    font-size: 19px;
+    color: white;
+    font-weight: 700;
+}
+
+
+.right-footer{
+    background: white;
+    padding-bottom: 51px;
+}
+.right-footer h3{
+    margin: 41px 0;
+    font-size: 24px;
+    width: 51%;
+    color: #565656;
+    padding: 22px;
+}
+.right-footer .button-5{
+    padding: 13px 53px;
+    margin-left: 22px;
+    margin-top: 3px;
+}
+/* footer-css end */
